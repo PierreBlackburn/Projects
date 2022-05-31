@@ -1,0 +1,7 @@
+You enter the health and shield values of a character called a Mitachurl, you then pitch this character against an enemy called a Gorg. 1,000,000 simulations are ran and the average chance your character wins is displayed.
+
+There are some combat mechanics: Mitachurls: 1% of the time the Mitachurl is attacked it will be instantly killed by a crit hit 20% of the time the Mitachurl dodges the attack so 0 damage is done 50% of the time the Mitachurl is attacked it will do between 2 and 5 damage to the shield (If the shield is reduced to a negative value the extra damage is reduced from the health) 29% of the time the Mitachurl is attacked it will do between 4 and 8 damage to the health
+
+Gorgs: Every Gorg has a health of 30 and a shield of 5 which is its max shield value 15% of the time the Gorg is attacked its shield will regenerate 1 point but will not surpass 5 35% of the time the Gorg dodges the attack so 0 damage is done 65% of the time the following occurs: shield takes 1-2 random damage if the shield value is now less than 0 attacks do random 5-10 health damage
+
+see if you can achieve a 50% winrate
